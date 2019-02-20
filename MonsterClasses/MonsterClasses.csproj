@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EarthMonster.cs" />
+    <Compile Include="FireMonster.cs" />
+    <Compile Include="IBattle.cs" />
+    <Compile Include="ICapture.cs" />
+    <Compile Include="Monster.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WaterMonster.cs" />
+    <Compile Include="WindMonster.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
